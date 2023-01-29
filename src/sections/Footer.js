@@ -1,128 +1,134 @@
+import logo from "../img/Logo.svg";
+import basketball from "../img/icons/Dribble.svg";
+import facebook from "../img/icons/Facebook.svg";
+import twitter from "../img/icons/Twitter.svg";
+import youtube from "../img/icons/YouTube.svg";
+
 export const Footer = () => {
   return (
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-logo-column">
-            <img class="footer-logo" alt="Move logo" src="img/Logo.svg" />
+    <footer className="footer">
+      <div className="container">
+        <div className="footer-content">
+          <div className="footer-logo-column">
+            <img className="footer-logo" alt="Move logo" src={logo} />
 
-            <p class="footer-logo-heading">
+            <p className="footer-logo-heading">
               Move - Multipurpose Design Template will help you develop your
               website design.
             </p>
 
-            <div class="footer-smedia-logos">
+            <div className="footer-smedia-logos">
               <a href="#">
-                <img src="img/icons/Dribbble.svg" alt="basketball" />
+                <img src={basketball} alt="basketball" />
               </a>
               <a href="#">
-                <img src="img/icons/Facebook.svg" alt="facebook" />
+                <img src={facebook} alt="facebook" />
               </a>
               <a href="#">
-                <img src="img/icons/Twitter.svg" alt="twitter" />
+                <img src={twitter} alt="twitter" />
               </a>
               <a href="#">
-                <img src="img/icons/YouTube.svg" alt="youtube" />
+                <img src={youtube} alt="youtube" />
               </a>
             </div>
           </div>
 
-          <div class="nav-footer">
-            <p class="footer-nav-heading">
+          <div className="nav-footer">
+            <p className="footer-nav-heading">
               <strong>Home</strong>
             </p>
             <ul id="nav-footer-margin">
               <li>
-                <a href="#" class="nav-footer-link">
+                <a href="#" className="nav-footer-link">
                   Desktop App
                 </a>
               </li>
               <li>
-                <a href="#" class="nav-footer-link">
+                <a href="#" className="nav-footer-link">
                   Mobile App
                 </a>
               </li>
               <li>
-                <a href="#" class="nav-footer-link">
+                <a href="#" className="nav-footer-link">
                   SaaS
                 </a>
               </li>
               <li>
-                <a href="#" class="nav-footer-link">
+                <a href="#" className="nav-footer-link">
                   Event
                 </a>
               </li>
               <li>
-                <a href="#" class="nav-footer-link">
+                <a href="#" className="nav-footer-link">
                   Software
                 </a>
               </li>
             </ul>
           </div>
 
-          <div class="nav-footer">
-            <p class="footer-nav-heading">
+          <div className="nav-footer">
+            <p className="footer-nav-heading">
               <strong>Pages</strong>
             </p>
             <ul>
               <li>
-                <a href="#" class="nav-footer-link">
+                <a href="#" className="nav-footer-link">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" class="nav-footer-link">
+                <a href="#" className="nav-footer-link">
                   Careers
                 </a>
               </li>
               <li>
-                <a href="#" class="nav-footer-link">
+                <a href="#" className="nav-footer-link">
                   Case Studies
                 </a>
               </li>
               <li>
-                <a href="#" class="nav-footer-link">
+                <a href="#" className="nav-footer-link">
                   Pricing
                 </a>
               </li>
             </ul>
           </div>
 
-          <div class="nav-footer">
-            <p class="footer-nav-heading">
+          <div className="nav-footer">
+            <p className="footer-nav-heading">
               <strong>Blog</strong>
             </p>
             <ul>
               <li>
-                <a href="#" class="nav-footer-link">
+                <a href="#" className="nav-footer-link">
                   Blog Listing
                 </a>
               </li>
               <li>
-                <a href="#" class="nav-footer-link">
+                <a href="#" className="nav-footer-link">
                   Blog Article
                 </a>
               </li>
               <li>
-                <a href="#" class="nav-footer-link">
+                <a href="#" className="nav-footer-link">
                   Newsroom
                 </a>
               </li>
             </ul>
           </div>
 
-          <div class="nav-footer">
-            <p class="footer-nav-heading">
+          <div className="nav-footer">
+            <p className="footer-nav-heading">
               <strong>Portfolio</strong>
             </p>
             <ul>
               <li>
-                <a href="#" class="nav-footer-link">
+                <a href="#" className="nav-footer-link">
                   Portfolio
                 </a>
               </li>
               <li>
-                <a href="#" class="nav-footer-link">
+                <a href="#" className="nav-footer-link">
                   Single Case
                 </a>
               </li>
@@ -130,9 +136,9 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div class="copyright">
+        <div className="copyright">
           <p>
-            Copyright &copy; <span class="year">2019-2020</span> Move
+            Copyright &copy; <span className="year">2019-2020</span> Move
             Multipurpose Design Template.
           </p>
         </div>
