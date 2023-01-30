@@ -1,0 +1,72 @@
+/* Header */
+
+.header {
+  height: 13.3rem;
+  background-color: #fff;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: auto;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.main-nav__link {
+  color: #8a94a6;
+  font-weight: 600;
+  font-size: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main-nav__link img {
+  width: 1.2rem;
+  height: 0.6rem;
+}
+
+.btn-primary {
+  background-color: #377dff;
+  color: #ffffff;
+  transition: background-color 0.3s;
+}
+.btn-primary:hover {
+  background-color: #1366ff;
+}
+
+.get-started-btn {
+  height: 5.7rem;
+  border-radius: 1rem;
+  background-color: #377dff;
+  font-weight: 600;
+  font-size: 2rem;
+  border: none;
+  padding: 0 3.3rem;
+
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* nav sticky */
+
+#header-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+}

@@ -1,0 +1,46 @@
+/* Dream Job Section */
+
+.dream-job-section {
+  padding-top: 14.2rem;
+  padding-bottom: 14.2rem;
+}
+
+.dream-job-section-content {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 13.8rem;
+}
+
+.dream-job-section-image-wrapper {
+  flex: 1;
+}
+
+.dream-job-section-image-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 1.5rem;
+  color: #8a94a6;
+  background: #c4c4c4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dream-job-section-description {
+  flex: 1;
+}
+
+.dream-job-section-heading {
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: 7.3rem;
+  color: #323b4b;
+  margin-bottom: 3.1rem;
+}
+
+.dream-job-section-subheading {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  color: #8a94a6;
+}

@@ -1,10 +1,10 @@
-import { TopNav } from "./sections/TopNav";
+import { TopNav } from "./sections/TopNav/TopNav";
 // import { OnClick } from "./OnClick";
-import { Hero } from "./sections/Hero";
-import { Offer } from "./sections/Offer";
-import { DreamJob } from "./sections/DreamJob";
-import { Vacancy } from "./sections/Vacancy";
-import { Footer } from "./sections/Footer";
+import { Hero } from "./sections/Hero/Hero";
+import { Offer } from "./sections/Offer/Offer";
+import { DreamJob } from "./sections/DreamJob/DreamJob";
+import { Vacancy } from "./sections/Vacancy/Vacancy";
+import { Footer } from "./sections/Footer/Footer";
 
 const App = () => {
   return (

@@ -1,6 +1,6 @@
-import arrowRight from "../img/icons/arrow-right.svg";
-import smallTeam from "../img/standing-man.png";
-import playButton from "../img/icons/Button_Play.svg";
+import arrowRight from "../../img/icons/arrow-right.svg";
+import smallTeam from "../../img/standing-man.png";
+import playButton from "../../img/icons/Button_Play.svg";
 
 export const Hero = () => {
   return (

@@ -1,3 +1,8 @@
-@import "./App.css";
 @import "./Base.css";
 @import "./MediaQuery.css";
+@import "../sections/TopNav/TopNav.css";
+@import "../sections/Hero/Hero.css";
+@import "../sections/Offer/Offer.css";
+@import "../sections/DreamJob/DreamJob.css";
+@import "../sections/Vacancy/Vacancy.css";
+@import "../sections/Footer/Footer.css";

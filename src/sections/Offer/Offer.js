@@ -1,7 +1,7 @@
-import socialPackage from "../img/icons/package.svg";
-import workplace from "../img/icons/workplace.svg";
-import freeMeals from "../img/icons/meals.svg";
-import gameRoom from "../img/icons/game.svg";
+import socialPackage from "../../img/icons/package.svg";
+import workplace from "../../img/icons/workplace.svg";
+import freeMeals from "../../img/icons/meals.svg";
+import gameRoom from "../../img/icons/game.svg";
 
 export const Offer = () => {
   return (

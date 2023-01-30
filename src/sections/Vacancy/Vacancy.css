@@ -1,0 +1,100 @@
+/*  Vacancy Section  */
+
+.vacancy-section {
+  background-color: #fafbfc;
+  padding: 10.8rem 0;
+}
+
+/* .vacancy-section-content {
+} */
+
+.vacancy-section-heading {
+  font-weight: 700;
+  font-size: 6rem;
+  text-align: center;
+  color: #323b4b;
+  margin-bottom: 3.5rem;
+}
+
+.vacancy-section-subheading {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 35px;
+  text-align: center;
+  color: #8a94a6;
+  margin: 0 auto;
+  margin-bottom: 7.7rem;
+  max-width: 76.9rem;
+}
+
+.vacancy {
+  height: 11.5rem;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 45% 30% 25%;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 1.5rem;
+}
+
+.vacancies {
+  /* width: 88rem; */
+  margin: 0 auto;
+  margin-bottom: 9.2rem;
+}
+
+.vacancy:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+.vacancy:hover {
+  box-shadow: 0rem 5rem 7.7rem rgba(176, 183, 195, 0.22);
+}
+
+.vacancy-categories {
+  font-weight: 600;
+  font-size: 2.4rem;
+  padding: 0 3.2rem;
+  color: #323b4b;
+  margin-bottom: 2rem;
+
+  display: grid;
+  grid-template-columns: 45% 30% 25%;
+  align-items: center;
+}
+
+.vacancy-positions {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #323b4b;
+}
+
+.vacancy-type,
+.vacancy-location {
+  font-weight: 500;
+  font-size: 2rem;
+  color: #8a94a6;
+}
+
+.btn-secondary {
+  background-color: #e5f1ff;
+  color: #377dff;
+  transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: #c4d4f3;
+}
+
+.btn-resume {
+  height: 6.6rem;
+  font-weight: 600;
+  font-size: 2rem;
+  background-color: #e5f1ff;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: none;
+  padding: 0 12.5rem;
+  display: block;
+  margin: 0 auto;
+}

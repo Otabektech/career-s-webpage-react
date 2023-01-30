@@ -1,8 +1,8 @@
-import logo from "../img/Logo.svg";
-import basketball from "../img/icons/Dribble.svg";
-import facebook from "../img/icons/Facebook.svg";
-import twitter from "../img/icons/Twitter.svg";
-import youtube from "../img/icons/YouTube.svg";
+import logo from "../../img/Logo.svg";
+import basketball from "../../img/icons/Dribble.svg";
+import facebook from "../../img/icons/Facebook.svg";
+import twitter from "../../img/icons/Twitter.svg";
+import youtube from "../../img/icons/YouTube.svg";
 
 export const Footer = () => {
   return (

@@ -1,0 +1,64 @@
+/* Hero Section */
+
+.hero-section {
+  padding-top: 12.4rem;
+  padding-bottom: 12.4rem;
+}
+
+.hero-section-description {
+  flex: 1;
+}
+
+.hero-section-content {
+  display: flex;
+  align-items: center;
+  gap: 10.8rem;
+}
+
+.hero-section-heading {
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: 7.3rem;
+  color: #323b4b;
+  margin-bottom: 3.4rem;
+}
+
+.hero-section-subheading {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  color: #8a94a6;
+  margin-bottom: 3.6rem;
+}
+
+.hero-section-img-wrapper {
+  position: relative;
+  flex: 1;
+}
+
+.button-play {
+  position: absolute;
+  top: 4.6rem;
+  left: 4.4rem;
+  cursor: pointer;
+}
+
+.hero-section-img {
+  width: 100%;
+  height: auto;
+  color: #8a94a6;
+  background: #c4c4c4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1.5rem;
+}
+
+.hero-section-cta {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #377dff;
+
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}

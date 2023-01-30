@@ -1,4 +1,4 @@
-import sittingMen from "../img/Image-10.png";
+import sittingMen from "../../img/Image-10.png";
 
 export const DreamJob = () => {
   return (

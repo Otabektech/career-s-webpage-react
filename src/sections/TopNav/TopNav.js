@@ -1,7 +1,7 @@
-import logo from "../img/Logo.svg";
-import downArrow from "../img/icons/chevron-down.svg";
-import Menu from "../img/icons/icon-menu-1.svg";
-import closeIcon from "../img/icons/close-icon.svg";
+import logo from "../../img/Logo.svg";
+import downArrow from "../../img/icons/chevron-down.svg";
+import Menu from "../../img/icons/icon-menu-1.svg";
+import closeIcon from "../../img/icons/close-icon.svg";
 
 export const TopNav = () => {
   return (
