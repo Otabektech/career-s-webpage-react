@@ -1,5 +1,4 @@
 import { TopNav } from "./sections/TopNav/TopNav";
-// import { OnClick } from "./OnClick";
 import { Hero } from "./sections/Hero/Hero";
 import { Offer } from "./sections/Offer/Offer";
 import { DreamJob } from "./sections/DreamJob/DreamJob";
@@ -10,7 +9,6 @@ const App = () => {
   return (
     <>
       <TopNav />
-      {/* <OnClick /> */}
       <Hero />
       <Offer />
       <DreamJob />
